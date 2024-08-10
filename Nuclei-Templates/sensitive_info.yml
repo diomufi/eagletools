@@ -1,0 +1,38 @@
+# nuclei -config ~/nuclei-templates/config/custom.yml -list target_list_to_scan.txt
+
+severity:
+  - critical
+  - high
+  - medium
+  - low
+
+type:
+  - http
+  - tcp
+  - javascript
+
+include-tags:
+  - generic
+  - config
+  - misconfig
+  - exposures
+  - exposure
+  - disclosure
+  - file
+  - logs
+  - traversal
+  - xss
+  - lfi
+  - crlf
+  - cache
+  - takeovers
+  - wordpress
+
+exclude-tags:
+  - tech
+  - dos
+  - fuzz
+  - creds-stuffing
+  - token-spray
+  - osint
+  - headers

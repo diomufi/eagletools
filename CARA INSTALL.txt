@@ -1,0 +1,12 @@
+PASTIKAN ANDA SUDAH MENGINSTALL GOLANG 
+
+KEMUDIAN KETIK DI TERMINAL : 
+
+chmod +x mufxss.sh
+
+chmod +x install.sh
+
+bash install.sh
+
+bash mufxss.sh -h
+
